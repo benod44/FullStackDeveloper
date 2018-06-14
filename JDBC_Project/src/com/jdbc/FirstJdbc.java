@@ -8,6 +8,7 @@ public class FirstJdbc {
 			
 			System.out.print(" "+i);
 			
+			System.out.println("this is a test");
 			
 		}
 		
