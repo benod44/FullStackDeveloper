@@ -85,6 +85,8 @@ public class practice_JDBC {
 		while (resultSet.next()) {
 			System.out.println(resultSet.getInt(1) + "--" + resultSet.getString(2) + "--" + resultSet.getInt(3));
 		}
+		
+		connection.close();
 
 	}
 
